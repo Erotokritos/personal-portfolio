@@ -36,6 +36,10 @@ export const Skills = () => {
                                 <h5>Practiced through game development and various projects</h5>
                             </div>
                             <div className="item">
+                                <h4>Python</h4>
+                                <h5>Practiced through academic course and personal projects</h5>
+                            </div>
+                            <div className="item">
                                 <h4>Java Script</h4>
                                 <h5>Web development projects</h5>
                             </div>
