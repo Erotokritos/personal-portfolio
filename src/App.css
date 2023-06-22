@@ -416,6 +416,11 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   overflow: hidden;
   margin-bottom: 24px;
 }
+.proj-imgbx img {
+  height:305px;
+  object-fit: cover;
+  align-items: center;
+}
 .proj-imgbx::before {
   content: "";
   background: linear-gradient(90.21deg, #9d36aa -5.91%, #482c9c 111.58%);
@@ -438,6 +443,15 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   opacity: 0;
   width: 100%;
   color: rgba(233, 217, 226, 0.952)
+}
+.proj-btn {
+  postion:relative;
+}
+.proj-btn .git-button{
+  color: rgba(238, 5, 5, 0.952);
+}
+.proj-btn .demo-button{
+  color: rgba(21, 5, 238, 0.952);
 }
 .proj-imgbx:hover .proj-txtx {
   top: 50%;
